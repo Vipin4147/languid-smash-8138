@@ -6,7 +6,7 @@
 }
 #navbar{
     width: 100%;
-    height: 140px;
+    height: 145px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     
 }
@@ -14,7 +14,7 @@
 width: 100%;
 height: 37px;
 
-margin-bottom: 7px;
+margin-bottom: 15px;
 display: flex;
 align-items: center;
 justify-content:center;
@@ -65,6 +65,13 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 
+
+}
+
+#mid>div:nth-child(1)>div{
+    width: 70%;
+    margin-right: 60px;
+    
 }
 #mid>div:nth-child(2){
 width: 30%;
@@ -77,32 +84,69 @@ justify-content: right;
     width: 17%;
 }
 #mid>div:nth-child(2)>img:nth-child(1){
-    width: 35px;
+    width: 50px;
 }
 #mid>div:nth-child(2)>img:nth-child(2){
-    width: 12px;
+    width: 8px;
     height: 30px;
 }
 #mid>div:nth-child(2)>img:nth-child(3){
-    width: 20px;
+    width: 30px;
     margin-left: 5px;
 }
 input{
     height: 25px;
-    width: 70%;
+    width: 100%;
     margin-right: 6%;
     height: 40px;
     border: 0px;
+    border-radius: 3px;
+    background-color: #fafafa ;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding-left: 55px;
+    font-size: 16px;
+
+   
 }
 #bottom>div{
-    width: 70%;
+    width: 75%;
     display: flex;
     margin-left: 8%;
     align-items: center;
-    justify-content: space-between;
-    height: 30px;
+   
+    height: 33px;
     font-size: 14px;
     line-height: 20px;
     
+}
+label>img{
+    width: 25px;
+    
+}
+label{
+   position: absolute;
+    top: 9%; left:21%;
+    
+}
+
+#bottom>div>div{
+    
+    padding: 8px 20px;
+    width: auto;
+   height: auto;
+  
+}
+
+#bottom>div>div:hover{
+border-bottom: 2px solid #ff9797;
+padding-bottom: 6px;
+opacity: 1;
+}
+
+
+.modal-container{
+    display: none;
+}
+.modal-makeup{
+    opacity: 0;
 }
