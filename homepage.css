@@ -138,15 +138,203 @@ label{
 }
 
 #bottom>div>div:hover{
-border-bottom: 2px solid #ff9797;
-padding-bottom: 6px;
-opacity: 1;
-}
+    border-bottom: 2px solid #ff9797;
+    padding-bottom: 6px;   
 
+    }
 
 .modal-container{
-    display: none;
+ opacity: 0;
+    width: 100%;
+    
+    background-color: rgba(0, 0, 0, 0.3);
+   display: flex;
+   justify-content: center; 
 }
-.modal-makeup{
+.modal-makeup{ 
+    width: 85%;
+    display: flex;
+    align-items: center;
+   
+    background-color: #fafafa;
+    position: absolute;
+    top:143px
+}
+.modal-makeup>div{
+    height: 400px;
+    width: 17%;
+
+    
+}
+.modal-makeup>div>div{
+    margin: 8px 15px;
+}
+.modal-makeup>div>div:nth-child(1){
+    color:#ff9c9b ;
+font-weight: 600;
+}
+.modal-makeup>div:nth-child(4)>div:nth-child(5){
+    color:#ff9c9b ;
+font-weight: 600;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.modal-makeup>div:nth-child(4)>div:nth-child(9){
+    color:#ff9c9b ;
+font-weight: 600;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.modal-makeup>div>div:nth-child(1):hover{
+    font-weight: 600;
+    color: black;
+}
+.modal-container2{
     opacity: 0;
-}
+       width: 100%;
+      
+       background-color: rgba(0, 0, 0, 0.3);
+      display: flex;
+      justify-content: center; 
+   }
+   .modal-hair{ 
+       width: 85%;
+       display: flex;
+       align-items: center;
+      
+       background-color: #fafafa;
+       position: absolute;
+       top:143px
+   }
+   .modal-hair>div{
+       height: 400px;
+       width: 15%;
+   border: 1px solid green;
+       
+   }
+
+   
+   .modal-container3{
+    opacity: 0;
+       width: 100%;
+       
+       background-color: rgba(0, 0, 0, 0.3);
+      display: flex;
+      justify-content: center; 
+   }
+   .modal-skin{ 
+       width: 85%;
+       display: flex;
+       align-items: center;
+      
+       background-color: #fafafa;
+       position: absolute;
+       top:143px
+   }
+   .modal-skin>div{
+       height: 400px;
+       width: 15%;
+   border: 1px solid green;
+       
+   }
+
+   
+   .modal-container4{
+    opacity: 0;
+       width: 100%;
+       
+       background-color: rgba(0, 0, 0, 0.3);
+      display: flex;
+      justify-content: center; 
+   }
+   .modal-sanitize{ 
+       width: 85%;
+       display: flex;
+       align-items: center;
+      
+       background-color: #fafafa;
+       position: absolute;
+       top:143px
+   }
+   .modal-sanitize>div{
+       height: 400px;
+       width: 15%;
+   border: 1px solid green;
+       
+   }
+
+   
+   .modal-container5{
+    opacity: 0;
+       width: 100%;
+       
+       background-color: rgba(0, 0, 0, 0.3);
+      display: flex;
+      justify-content: center; 
+   }
+   .modal-collection{ 
+       width: 85%;
+       display: flex;
+       align-items: center;
+      
+       background-color: #fafafa;
+       position: absolute;
+       top:143px
+   }
+   .modal-collection>div{
+       height: 400px;
+       width: 15%;
+   border: 1px solid green;
+       
+   }
+
+   
+   .modal-container6{
+    opacity: 0;
+       width: 100%;
+       
+       background-color: rgba(0, 0, 0, 0.3);
+      display: flex;
+      justify-content: center; 
+   }
+   .modal-studio{ 
+       width: 85%;
+       display: flex;
+       align-items: center;
+      
+       background-color: #fafafa;
+       position: absolute;
+       top:143px
+   }
+   .modal-studio>div{
+       height: 400px;
+       width: 15%;
+   border: 1px solid green;
+       
+   }
+
+   
+   .modal-container7{
+    opacity: 0;
+       width: 100%;
+       
+       background-color: rgba(0, 0, 0, 0.3);
+      display: flex;
+      justify-content: center; 
+   }
+   .modal-rewards{ 
+       width: 85%;
+       display: flex;
+       align-items: center;
+      
+       background-color: #fafafa;
+       position: absolute;
+       top:143px
+   }
+   .modal-rewards>div{
+       height: 400px;
+       width: 15%;
+   border: 1px solid green;
+       
+   }
+   
