@@ -7,9 +7,6 @@ input.addEventListener("click",function(){
 let modal=document.querySelector(".modal-container");
 let modal_makeup=document.querySelector(".modal-makeup")
 
-
-
-
 let makeup=document.querySelector("#makeup")
 makeup.addEventListener("mouseover",function(){
    
@@ -75,25 +72,44 @@ collection.addEventListener("mouseout",function(){
 
 let modal6=document.querySelector(".modal-container6");
 
-let studio=document.querySelector("#studio")
-studio.addEventListener("mouseover",function(){
+let rewards=document.querySelector("#rewards")
+rewards.addEventListener("mouseover",function(){
    
 modal6.style.opacity=1;
     
 })
-studio.addEventListener("mouseout",function(){
+rewards.addEventListener("mouseout",function(){
     modal6.style.opacity=0;
 })
 
 let modal7=document.querySelector(".modal-container7");
 
-let rewards=document.querySelector("#rewards")
-rewards.addEventListener("mouseover",function(){
+let studio=document.querySelector("#studio")
+studio.addEventListener("mouseover",function(){
    
 modal7.style.opacity=1;
     
 })
-rewards.addEventListener("mouseout",function(){
+studio.addEventListener("mouseout",function(){
     modal7.style.opacity=0;
 })
 
+
+// sticky navbar
+
+
+window.onscroll = function() {myFunction()};
+
+
+var navbar = document.getElementById("navbar");
+
+
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
