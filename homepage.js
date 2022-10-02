@@ -5,7 +5,7 @@ input.addEventListener("click",function(){
 });
 
 let modal=document.querySelector(".modal-container");
-let modal_makeup=document.querySelector(".modal-makeup")
+
 
 let makeup=document.querySelector("#makeup")
 makeup.addEventListener("mouseover",function(){
@@ -113,3 +113,45 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+
+
+// ***********slider***********
+
+
+let slide=document.querySelector("#slider");
+let btn1=document.querySelector("#btn1");
+let btn2=document.querySelector("#btn2");
+
+
+btn1.onclick = function(){
+    slide.style.transform= "translateX(0px)";
+    btn1.classList.add("active");
+    btn2.classList.remove("active");
+}
+
+btn2.onclick = function(){
+    slide.style.transform= "translateX(-100%)";
+    btn1.classList.remove("active");
+    btn2.classList.add("active");
+}
+
+
+let slide2=document.querySelector("#slider2");
+let btn12=document.querySelector("#btn12");
+let btn22=document.querySelector("#btn22");
+
+
+btn12.onclick = function(){
+    slide2.style.transform= "translateX(0px)";
+    btn12.classList.add("active");
+    btn22.classList.remove("active");
+}
+
+btn22.onclick = function(){
+    slide2.style.transform= "translateX(-100%)";
+    btn12.classList.remove("active");
+    btn22.classList.add("active");
+}
+
+
