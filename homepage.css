@@ -933,3 +933,8 @@ font-size: 20px;
 #footer-bottom p{
     font-size: 14px;
 }
+
+
+ body img{
+    cursor: pointer;
+}
